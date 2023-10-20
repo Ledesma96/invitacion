@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Montserrat:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px
+}
+
+.container__div{
+    grid-row: 1;
+    background-image: linear-gradient(rgba(248, 0, 0, 0.4),rgba(255, 0, 0, 0.4)),
+    url("https://www.voxpopuli.net.ar/files/image/96/96289/624cdfadb5bb5_905_510!.jpg?s=b1db7bad50f570ec658b2dcabfc1f4c4&d=1688398432");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container__div__image{
+    position: absolute;
+    top: 70px;
+    margin-left: 8px;
+}
+
+.container__section{
+    grid-row: 2;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__section__1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__section__1__p{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.5rem;
+}
+
+.container__section__1__h1{
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.container__section__2{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.container__section__2__div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 15px;
+    margin-left: 16px;
+    height: 170px;
+    border-right: 0.5px solid #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.container__section__2__div1__fecha{
+    color: red;
+    font-size: 5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.container__section__2__div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.container__section__2__div2__span{
+    width: 200px;
+    border: 0.5px solid black;
+}
+
+.container__section__2__div2__p2{
+    text-align: center;
+    line-height: 1.5
+}
+
+.containerTimer{
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerTimer__days{
+    display: flex;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+.containerTimer__hours{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
