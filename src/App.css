@@ -15,6 +15,7 @@
 }
 
 .container__div{
+    position: relative;
     grid-row: 1;
     background-image: linear-gradient(rgba(248, 0, 0, 0.4),rgba(255, 0, 0, 0.4)),
     url("https://www.voxpopuli.net.ar/files/image/96/96289/624cdfadb5bb5_905_510!.jpg?s=b1db7bad50f570ec658b2dcabfc1f4c4&d=1688398432");
@@ -26,8 +27,8 @@
 .container__div__image{
     position: absolute;
     width: 400px;
-    top: 105px;
-    
+    top: 35%;
+    left: 0%;
 }
 
 .container__section{
@@ -117,7 +118,7 @@
     display: flex;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 .containerTimer__hours{
     color: white;
