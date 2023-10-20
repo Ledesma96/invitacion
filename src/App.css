@@ -11,7 +11,7 @@
     height: 100vh;
     width: 100vw;
     display: grid;
-    grid-template-rows: 1.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .container__div{
@@ -28,7 +28,7 @@
 }
 
 .container__div__image{
-    width: 400px;
+    width: 100%;
     margin-bottom: -25px;
 }
 
