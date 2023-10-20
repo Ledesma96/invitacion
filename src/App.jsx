@@ -8,7 +8,7 @@ function App() {
     <div className='container'>
       <div className='container__div'>
         <CountdownTimer></CountdownTimer>
-        <img className='container__div__image' src="../public/images/D_NQ_NP_713381-MLA54936235795_042023-O.png" alt="" />
+        <img className='container__div__image' src="../public/D_NQ_NP_713381-MLA54936235795_042023-O.png" alt="" />
       </div>
       <section className='container__section'>
         <aside className='container__section__1'>
